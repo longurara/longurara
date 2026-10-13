@@ -5,7 +5,7 @@ Software Engineering student passionate about crafting practical tools, automati
 - 🔭 Exploring: WebAssembly, Fullstack Development, Performance Optimization
 - 🛠️ Tech Stack: JavaScript, TypeScript, C#, WebAssembly, React, Node.js
 - 💬 Ask me about: Tool automation, client-side caching & offline utilities
-- 📫 Contact: [LinkedIn](https://linkedin.com) • [Email](mailto:your_email@example.com)
+- 📫 Contact: [Email](mailto:hikarilong@gmail.com)
 
 ---
 
