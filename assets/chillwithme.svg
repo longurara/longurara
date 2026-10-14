@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="ChillWithMe WebAssembly project art, twilight browser scene">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15172F"/><stop offset=".55" stop-color="#26234A"/><stop offset="1" stop-color="#102D42"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2A254F"/><stop offset="1" stop-color="#275777"/></linearGradient>
+<radialGradient id="moon"><stop stop-color="#E9DDF7" stop-opacity=".45"/><stop offset="1" stop-color="#E9DDF7" stop-opacity="0"/></radialGradient>
+<linearGradient id="brand"><stop stop-color="#E3C9FF"/><stop offset="1" stop-color="#9DDFFC"/></linearGradient>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#D8D0FA" fill-opacity=".1"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="18" fill="url(#dots)"/>
+<path d="M0 320V75L310 320" fill="#B780EF" opacity=".045"/>
+<rect x="37" y="33" rx="12" width="187" height="28" fill="#8B7CE2" fill-opacity=".13" stroke="#A493FF" stroke-opacity=".38"/>
+<text x="56" y="52" font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#D3CAFC">FEATURED PROJECT 01</text>
+<text x="37" y="128" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="53" letter-spacing="-1.8" fill="url(#brand)">ChillWithMe</text>
+<text x="39" y="170" font-family="Consolas, monospace" font-size="21" letter-spacing="2" fill="#C9B9F7">_WASM</text>
+<text x="40" y="229" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#C8C9E2">Taking a cozy Unity experience</text>
+<text x="40" y="257" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#C8C9E2">into the browser.</text>
+<path d="M40 291H485" stroke="#B3A7E7" stroke-opacity=".44"/>
+<circle cx="51" cy="291" r="4" fill="#D4B8FF"/>
+<g>
+ <rect x="632" y="21" width="535" height="276" rx="14" fill="#0F1A31" stroke="#9995CF" stroke-opacity=".58" stroke-width="2"/>
+ <rect x="632" y="21" width="535" height="31" rx="14" fill="#252743"/>
+ <rect x="632" y="40" width="535" height="12" fill="#252743"/>
+ <circle cx="651" cy="36" r="4" fill="#D67589"/><circle cx="667" cy="36" r="4" fill="#EACB80"/><circle cx="683" cy="36" r="4" fill="#92D9BD"/>
+ <text x="900" y="41" font-family="Consolas, monospace" text-anchor="middle" font-size="12" fill="#B4ADD6">localhost / WebGL</text>
+ <rect x="647" y="62" width="505" height="220" rx="5" fill="url(#sky)"/>
+ <circle cx="1060" cy="102" r="59" fill="url(#moon)"/>
+ <circle cx="1060" cy="102" r="23" fill="#F1E6D9"/>
+ <circle cx="1068" cy="97" r="24" fill="#E6E1F3" opacity=".4"/>
+ <g fill="#F5E7FD"><circle cx="686" cy="82" r="1.5"/><circle cx="789" cy="99" r="1.8"/><circle cx="941" cy="73" r="1.3"/><circle cx="1132" cy="187" r="1.4"/><circle cx="901" cy="128" r="1.6"/><circle cx="738" cy="141" r="1.4"/></g>
+ <path d="M647 233L706 187L762 226L812 173L866 224L934 180L997 231L1078 175L1152 220V282H647Z" fill="#273B63"/>
+ <path d="M647 260L722 223L781 258L852 220L932 258L1045 217L1152 261V282H647Z" fill="#173A4E"/>
+ <rect x="869" y="209" width="68" height="73" rx="3" fill="#18253F"/>
+ <path d="M862 211L903 180L944 211Z" fill="#382C49"/>
+ <rect x="892" y="231" width="21" height="26" rx="2" fill="#F1C6A1"/>
+ <rect x="895" y="233" width="15" height="20" rx="1" fill="#FBE0B2" opacity=".7"/>
+ <rect x="816" y="251" width="100" height="5" rx="2" fill="#261F40"/>
+ <path d="M647 276H1152" stroke="#A5D9ED" stroke-opacity=".16"/>
+ </g>
+</svg>
