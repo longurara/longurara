@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="95" viewBox="0 0 1200 95" role="img" aria-label="End of file. Keep building.">
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#071D34"/><stop offset=".5" stop-color="#151933"/><stop offset="1" stop-color="#071D34"/></linearGradient><linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#62E9DE"/><stop offset=".5" stop-color="#9A8AFB"/><stop offset="1" stop-color="#62E9DE"/></linearGradient></defs>
-<rect width="1200" height="95" rx="16" fill="url(#b)"/><path d="M35 14H1165" stroke="url(#l)" stroke-opacity=".7"/>
-<text x="49" y="61" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="1.4" fill="#B5F2E8">&lt;/ KEEP BUILDING &gt;</text>
-<text x="1151" y="60" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="14" fill="#9AAED2" letter-spacing="1.2">END OF FILE · longurara</text>
-</svg>

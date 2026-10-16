@@ -1,131 +1,148 @@
-<!--
-  GitHub profile README for github.com/longurara
-  Theme: Midnight / Cyan / Iris
-  Assets are maintained in ./assets — upload this folder together with README.md.
-  Content is intentionally conservative about unverified awards, roles, and project maturity.
--->
-
 <div align="center">
+
+  <!-- Soft Cozy Twilight Wave Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:313244,100:45475a&height=180&section=header&text=longurara%20%E2%9C%A7%20L%C3%AA%20Ho%C3%A0ng%20Long&fontSize=42&fontColor=cdd6f4&fontAlignY=36&desc=late-night%20builder%20%C2%B7%20systems%2C%20webassembly%20%26%20cozy%20tools&descSize=16&descAlignY=58&descColor=bac2de" width="100%" alt="longurara header" />
+
+  <!-- Typing Subtitle -->
   <a href="https://github.com/longurara">
-    <img src="./assets/hero.svg" alt="longurara — Build, Break, Understand | C/C++, WebAssembly and developer tools" width="100%" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=1200&color=CBA6F7&center=true&vCenter=true&width=750&lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" alt="Typing SVG" />
   </a>
 
-  <p>
-    <a href="#-about-me"><strong>About</strong></a>&nbsp; • &nbsp;
-    <a href="#-selected-work"><strong>Projects</strong></a>&nbsp; • &nbsp;
-    <a href="#-toolbox"><strong>Toolbox</strong></a>&nbsp; • &nbsp;
-    <a href="#-github-activity"><strong>Activity</strong></a>
-  </p>
+  <br />
 
-  <a href="https://github.com/longurara?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/longurara?label=Followers&amp;style=flat-square&amp;color=42C9C7&amp;labelColor=101827" /></a>
-  <a href="https://github.com/longurara?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/Explore-My%20Repositories-9380FA?style=flat-square&amp;labelColor=101827" /></a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=longurara&amp;label=Profile%20views&amp;color=6E95D9&amp;style=flat-square" />
+  <!-- Minimal Cozy Badges -->
+  <a href="https://github.com/longurara?tab=repositories">
+    <img src="https://img.shields.io/badge/repos-34%2B%20public-cba6f7?style=flat-square&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="Public Repositories" />
+  </a>
+  <a href="https://github.com/longurara?tab=followers">
+    <img src="https://img.shields.io/github/followers/longurara?label=followers&style=flat-square&color=89b4fa&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="Followers" />
+  </a>
+  <a href="mailto:hikarilong@gmail.com">
+    <img src="https://img.shields.io/badge/email-hikarilong%40gmail.com-f5c2e7?style=flat-square&labelColor=1e1e2e&logo=gmail&logoColor=cdd6f4" alt="Email" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=longurara&label=views&color=94e2d5&style=flat-square" alt="Profile views" />
+
 </div>
 
 <br />
 
-## ✦ About me
+### 🌙 `~/about-me`
 
-**Hey, I'm `@longurara`.** I like understanding the details behind how software works — then using what I learn to build something useful, interesting, or just a little unconventional.
+Hey, I'm **Long** (`@longurara`) — a Software Engineering student at **FPT University** who loves taking apart software to see how it ticks, then rebuilding it into something fast, local-first, and pleasant to use.
 
-My projects move between **C/C++ algorithms**, **developer utilities**, **offline-first web apps**, and **WebAssembly experiments**. I value clear code, practical problem-solving, and getting things working before polishing the edges.
+Most of my evenings go into porting desktop/Unity games to **WebAssembly**, writing **C++ interpreters & search tools**, crafting **zero-backend Chrome extensions**, and building cozy media utilities for music and light novels.
 
-```cpp
-// What keeps me building:
-constexpr auto approach = "explore → understand → build → improve";
+```yaml
+name: Lê Hoàng Long (@longurara)
+education: Software Engineering @ FPT University
+vibe: lo-fi playlists, late-night debugging, light novels & rhythm/cozy games
+
+what_i_build:
+  webassembly_&_3d:   [Unity WebGL2 ports, ShaderLab SM3.5, Babylon.js 3D web games]
+  systems_&_langs:    [C++17/20, C#, Java, Python, custom AST interpreters, Trie/fuzzy indexing]
+  browser_&_offline:  [Manifest V3 extensions, Chrome DevTools Protocol, IndexedDB/CacheStorage]
+  desktop_&_mobile:   [Flutter (WASAPI Exclusive audio), SwiftUI (iOS), Windows winget tooling]
+
+philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to actually be used."
 ```
 
-<table>
-<tr>
-<td width="33%" valign="top"><strong>01 · LOW-LEVEL CURIOSITY</strong><br /><sub>Algorithms, C/C++, source code, and tools that help developers work faster.</sub></td>
-<td width="33%" valign="top"><strong>02 · BEYOND THE DEFAULT</strong><br /><sub>Exploring what runs where — including Unity/WebGL and browser-side experiences.</sub></td>
-<td width="33%" valign="top"><strong>03 · USEFUL BY DESIGN</strong><br /><sub>Fast, approachable, offline-friendly utilities made for everyday use.</sub></td>
-</tr>
-</table>
-
 <br />
 
-## ✦ Selected work
-
-<sub>A few projects that reflect what I enjoy building. Click any cover to explore the repository.</sub>
-
-<a href="https://github.com/longurara/ChillWithMe_Wasm"><img src="./assets/chillwithme.svg" width="100%" alt="ChillWithMe_Wasm — Unity experience brought toward the browser" /></a>
-
-### [ChillWithMe_Wasm](https://github.com/longurara/ChillWithMe_Wasm) <sub>· Browser / WebGL exploration</sub>
-
-Experimenting with bringing a Unity experience to the browser — exploring **WebGL builds**, asset handling, and browser-side integration. This is an **ongoing technical experiment**, not a finished production release.
-
-`Unity` `WebGL` `WebAssembly` `Build tooling` &nbsp; [**View source ↗**](https://github.com/longurara/ChillWithMe_Wasm)
-
-<br />
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/longurara/Searching-Software"><img src="./assets/searching.svg" width="100%" alt="Searching-Software — C++ source-code search and Trie visualization" /></a>
-<h3><a href="https://github.com/longurara/Searching-Software">Searching-Software ↗</a></h3>
-<p>A C++ search utility exploring <strong>Trie-based indexing</strong>, autocomplete, and approximate matches for navigating source code.</p>
-<p><code>C++</code> <code>Trie</code> <code>Search</code></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/longurara/tudienoffline"><img src="./assets/dictionary.svg" width="100%" alt="tudienoffline — offline English and Vietnamese dictionary" /></a>
-<h3><a href="https://github.com/longurara/tudienoffline">tudienoffline ↗</a></h3>
-<p>A browser-based <strong>English ↔ Vietnamese dictionary</strong> designed to work locally without relying on a backend.</p>
-<p><code>JavaScript</code> <code>HTML/CSS</code> <code>Offline-first</code></p>
-</td>
-</tr>
-</table>
-
-**Also exploring:** [WinUtilities-Pro](https://github.com/longurara/WinUtilities-Pro) · [FAP-GPA-Viewer](https://github.com/longurara/FAP-GPA-Viewer) · [All repositories ↗](https://github.com/longurara?tab=repositories)
-
-<br />
-
-## ✦ Toolbox
+### ✨ `~/pinned-highlights`
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,js,html,css,python,git,github,vscode,visualstudio,windows,unity&amp;perline=12" alt="C, C++, JavaScript, HTML, CSS, Python, Git, GitHub, VS Code, Visual Studio, Windows, Unity" />
-
-<br /><br />
-
-<code>Core: C / C++</code>&nbsp; <code>Web: JavaScript / HTML / CSS</code>&nbsp; <code>Exploring: Unity / WebAssembly</code>
-
-</div>
-
-<br />
-
-## ✦ GitHub activity
-
-<div align="center">
-  <a href="https://github.com/longurara">
-    <img src="https://github-readme-stats.vercel.app/api?username=longurara&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1729&amp;title_color=7CEADF&amp;text_color=B8CCE5&amp;icon_color=A295FF&amp;include_all_commits=true" width="49%" alt="GitHub account statistics" />
+  <a href="https://github.com/longurara/ChillWithYou_Wasm">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=ChillWithYou_Wasm&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="ChillWithYou_Wasm" />
   </a>
-  <a href="https://github.com/longurara?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1729&amp;title_color=7CEADF&amp;text_color=B8CCE5&amp;langs_count=8" width="49%" alt="Most used languages across public repositories" />
+  <a href="https://github.com/longurara/tudienoffline">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=tudienoffline&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="tudienoffline" />
+  </a>
+  <a href="https://github.com/longurara/Gun_game">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=Gun_game&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="Gun_game" />
+  </a>
+  <a href="https://github.com/longurara/Omni-Lang">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=Omni-Lang&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="Omni-Lang" />
+  </a>
+  <a href="https://github.com/longurara/FAP-GPA-Viewer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=FAP-GPA-Viewer&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="FAP-GPA-Viewer" />
+  </a>
+  <a href="https://github.com/longurara/recall_extension">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=recall_extension&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="recall_extension" />
   </a>
 </div>
 
-<details>
-  <summary><strong>▸ Expand contribution activity</strong></summary>
+<br />
+
+### 🗂️ `~/project-index`
+
+#### 🎮 WebAssembly, 3D Web & Cozy Games
+| Project | What it is | Stack & Links |
+| :--- | :--- | :--- |
+| **[ChillWithYou_Wasm](https://github.com/longurara/ChillWithYou_Wasm)** | Standalone **Unity WebGL2 / WebAssembly** port of *Chill with You: Lo-Fi Story*. Features a custom `lilToon` SM4.5 → SM3.5 shader pipeline, unbatched static room meshes, 233 LZ4 AssetPacks with a 3-tier `CacheStorage` preloader (`0ms` RAM-pinned outfit/decor swaps), 152 Lo-Fi tracks, 30-channel ambient mixer, Pomodoro/Diary suite, and C# native uGUI bindings. | `C#` `Unity WebGL` `Wasm` `Python` `ShaderLab` |
+| **[LASTLIGHT (`Gun_game`)](https://github.com/longurara/Gun_game)** | Browser-native 3D third-person **Battle Royale survival shooter**. Drop onto a `4×4 km` island with **100 AI bots** (or a `200m` blitz arena), loot weapons/armor, drive vehicles, and survive the shrinking zone. Supports desktop KB/M + mobile touch & HTTPS gyroscope aiming with zero game server. | `TypeScript` `Babylon.js` `Vite` · [**Live Demo ↗**](https://gun-game-fawn.vercel.app) |
+
+#### ⚙️ Compilers, Languages & Systems Tooling
+| Project | What it is | Stack & Links |
+| :--- | :--- | :--- |
+| **[Omni-Lang](https://github.com/longurara/Omni-Lang)** | Custom object-oriented programming language & interpreter written in **C++** (`Lexer` → `Parser` → `Runtime`). Ships with a rich standard library (`Math`, `JSON`, `Regex`, `CSV`, `File I/O`), a dedicated **VS Code IntelliSense extension** (`vscode-omni`), and multilingual docs (`EN` / `VI` / `RU`). | `C++` `CMake` `VS Code API` |
+| **[Searching-Software](https://github.com/longurara/Searching-Software)** | **C++ Intelli-Search** — interactive CLI source-code search engine built with **Trie prefix indexing**, typo-tolerant fuzzy matching, frequency ranking, and real-time autocomplete. | `C++` `Trie` `Algorithms` |
+| **[AutoGradeJava](https://github.com/longurara/AutoGradeJava)** | Desktop GUI & CLI automated grading runner in Python for compiling, executing, and scoring Java OOP student submissions. | `Python` `Java` `Tkinter` |
+| **[WinUtilities-Pro](https://github.com/longurara/WinUtilities-Pro)** | Categorized batch application installer for Windows powered by `winget` and custom automation scripts with live log streaming. | `Windows` `Winget` `Automation` |
+
+#### 🧩 Chrome Extensions & Local-First Web Apps
+| Project | What it is | Stack & Links |
+| :--- | :--- | :--- |
+| **[tudienoffline](https://github.com/longurara/tudienoffline)** | **★ 48 Stars** · Zero-backend, 100% client-side **English ↔ Vietnamese Offline Dictionary**. Runs directly in the browser with a multi-tier dataset architecture (`2.2 MB+` 8-shard chunked manifest) and instant local search. | `JavaScript` `Offline-First` `HTML/CSS` |
+| **[FAP-GPA-Viewer](https://github.com/longurara/FAP-GPA-Viewer)** | **FAP Dashboard v6.2** — Chrome Web Store extension for FPT University students: GPA calculation & simulation, smart timetable scheduling, exam countdowns, and study analytics. | `Manifest V3` `JavaScript` · [**Web ↗**](https://fap-gpa-viewer.vercel.app) · [**Chrome Store ↗**](https://chromewebstore.google.com/detail/fpt-academic-portal-dashb/pkfcnophcekokdfobdkbliaainejbdhn) |
+| **[FAP-Auto-Move-Class](https://github.com/longurara/FAP-Auto-Move-Class)** | Zero-dependency Chrome Web Store extension that maps open university classes onto a visual week grid, highlights timetable clashes, and grabs open seats automatically using existing browser sessions. | `Manifest V3` `Zero-Backend` · [**Chrome Store ↗**](https://chromewebstore.google.com/detail/fap-auto-move-class/ghigbogpfhpgcogmbjehjpfigpgcalof) |
+| **[recall_extension](https://github.com/longurara/recall_extension)** | **Recall** — Offline web page time-machine & archiver. Captures self-contained DOM snapshots via **Chrome DevTools Protocol (`chrome.debugger`)** & `MutationObserver`, compresses with `gzip` into `IndexedDB`, and features visual DOM diffing & full-text search. | `JavaScript` `CDP` `IndexedDB` `Gzip` |
+| **[Search-docx-pdf-pptx](https://github.com/longurara/Search-docx-pdf-pptx)** | Client-side multi-format document search utility for indexing and querying inside `.docx`, `.pdf`, and `.pptx` files locally in the browser. | `HTML5` `JavaScript` · [**Live ↗**](https://search-docx-pdf-pptx.vercel.app) |
+| **[CapturetoChatGPT](https://github.com/longurara/CapturetoChatGPT)** · **[Presentation_Random](https://github.com/longurara/Presentation_Random)** · **[FuOverflowAutoDownload](https://github.com/longurara/FuOverflowAutoDownload)** | Workflow micro-extensions: one-click slide cropper to ChatGPT clipboard, Google Slides random jumper (`Shift+Alt+R`), and batch attachment downloader. | `Chrome Extensions` `Manifest V3` |
+
+#### 🎧 Cozy Media, Audio Players & Light Novel Readers
+| Project | What it is | Stack & Links |
+| :--- | :--- | :--- |
+| **[Flutter_music_app](https://github.com/longurara/Flutter_music_app)** | Desktop-first cross-platform audiophile player with **Vinyl turntable & CD deck themes**, `media_kit` Hi-Res/lossless playback, Windows **WASAPI Exclusive** bit-perfect output, 5-band EQ, mic room calibration, synced lyrics (`lrclib`), and Google Drive streaming. | `Flutter` `Dart` `C++` `WASAPI` |
+| **[Swift-music-app](https://github.com/longurara/Swift-music-app)** | **MusicGlass** — Native iOS SwiftUI music player concept with animated liquid-glass (glassmorphism) gradient blobs and `AVPlayer` streaming. | `Swift` `SwiftUI` `AVPlayer` |
+| **[otonariNoTenshi](https://github.com/longurara/otonariNoTenshi)** | Mobile-first Light Novel reader workbench & EPUB/PDF/DOCX pipeline featuring character catalogs, reading stats, vocabulary flashcards, TTS audio, and **MediaPipe** hand-gesture camera navigation. | `Node.js` `JavaScript` `MediaPipe` · [**Live ↗**](https://otonari-no-tenshi.vercel.app) |
+| **[hako_downloader](https://github.com/longurara/hako_downloader)** | Local Web UI + CLI crawler and downloader for the Hako / DocLN light novel ecosystem with volume selection, built-in DNS switcher, and clean `EPUB` / `TXT` generation. | `Node.js` `Express` `EPUB` |
+| **[demo_Sports-Center-Management-System](https://github.com/longurara/demo_Sports-Center-Management-System)** | Multi-role management frontend prototype (Manager, Receptionist, Coach, Member) built for `SWP391`. | `React` `TypeScript` `Ant Design` · [**Live ↗**](https://frontend-eta-ruddy-61.vercel.app) |
+
+<br />
+
+### 🛠️ `~/toolbox`
+
+<div align="center">
+
+  **Languages & Core**
   <br />
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=longurara&amp;bg_color=0d1729&amp;color=a8c2e2&amp;line=73e5d8&amp;point=a694fa&amp;area=true&amp;hide_border=true" width="100%" alt="GitHub contribution graph" />
-  </div>
-</details>
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,py,ts,js,dart,swift,html,css,powershell&theme=dark" alt="Languages" />
+
+  <br /><br />
+
+  **Engines, Frameworks & Tools**
+  <br />
+  <img src="https://skillicons.dev/icons?i=unity,wasm,react,flutter,nodejs,express,vite,cmake,git,github,vscode,visualstudio&theme=dark" alt="Frameworks and Tools" />
+
+</div>
 
 <br />
 
-## ✦ What's next?
-
-Right now, my curiosity keeps bringing me back to **C/C++**, **developer tooling**, and **making software run in places it wasn't originally designed for**.
-
-> The best way to understand a system is to build with it, break assumptions, and improve the result.
-
-For feedback, ideas, or collaboration, the best starting point is an issue or discussion in one of my [repositories](https://github.com/longurara?tab=repositories).
+### 📊 `~/stats`
 
 <div align="center">
-  <a href="https://github.com/longurara?tab=repositories"><img alt="Explore repositories" src="https://img.shields.io/badge/EXPLORE%20REPOSITORIES-17243C?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
-  <a href="https://github.com/longurara"><img alt="Follow on GitHub" src="https://img.shields.io/badge/FOLLOW%20MY%20WORK-6258A9?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=longurara&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&include_all_commits=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&langs_count=8" height="165" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=longurara&theme=catppuccin-mocha&hide_border=true&background=1E1E2E&ring=CBA6F7&fire=F5C2E7&currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
+</div>
+
+<br />
+
+<div align="center">
+  <sub><i>"Quiet nights, warm coffee, lo-fi beats, and code that runs where it shouldn't."</i> ☕✨</sub>
   <br /><br />
-  <img src="./assets/footer.svg" width="100%" alt="Keep building — end of file" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:45475a,50:313244,100:1e1e2e&height=110&section=footer" width="100%" alt="footer" />
 </div>
