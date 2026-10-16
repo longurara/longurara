@@ -1,26 +1,27 @@
 <div align="center">
 
-  <!-- Soft Cozy Twilight Wave Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:313244,100:45475a&height=180&section=header&text=longurara%20%E2%9C%A7%20L%C3%AA%20Ho%C3%A0ng%20Long&fontSize=42&fontColor=cdd6f4&fontAlignY=36&desc=late-night%20builder%20%C2%B7%20systems%2C%20webassembly%20%26%20cozy%20tools&descSize=16&descAlignY=58&descColor=bac2de" width="100%" alt="longurara header" />
+  <h1>Hi there, I'm Lê Hoàng Long (<code>@longurara</code>) 🌙</h1>
 
   <!-- Typing Subtitle -->
   <a href="https://github.com/longurara">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=1200&color=CBA6F7&center=true&vCenter=true&width=750&lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1200&amp;color=CBA6F7&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" alt="Typing SVG" />
   </a>
 
   <br />
 
   <!-- Minimal Cozy Badges -->
   <a href="https://github.com/longurara?tab=repositories">
-    <img src="https://img.shields.io/badge/repos-34%2B%20public-cba6f7?style=flat-square&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="Public Repositories" />
+    <img src="https://img.shields.io/badge/repos-34%2B%20public-cba6f7?style=flat-square&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Public Repositories" />
+  </a>
+  <a href="https://github.com/longurara">
+    <img src="https://img.shields.io/github/stars/longurara?affiliations=OWNER&amp;label=stars&amp;style=flat-square&amp;color=f9e2af&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Total Stars" />
   </a>
   <a href="https://github.com/longurara?tab=followers">
-    <img src="https://img.shields.io/github/followers/longurara?label=followers&style=flat-square&color=89b4fa&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/longurara?label=followers&amp;style=flat-square&amp;color=89b4fa&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Followers" />
   </a>
   <a href="mailto:hikarilong@gmail.com">
-    <img src="https://img.shields.io/badge/email-hikarilong%40gmail.com-f5c2e7?style=flat-square&labelColor=1e1e2e&logo=gmail&logoColor=cdd6f4" alt="Email" />
+    <img src="https://img.shields.io/badge/email-hikarilong%40gmail.com-f5c2e7?style=flat-square&amp;labelColor=1e1e2e&amp;logo=gmail&amp;logoColor=cdd6f4" alt="Email" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=longurara&label=views&color=94e2d5&style=flat-square" alt="Profile views" />
 
 </div>
 
@@ -131,18 +132,18 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 ### 📊 `~/stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=longurara&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&include_all_commits=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&langs_count=8" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=longurara&amp;show_icons=true&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;icon_color=f5c2e7" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;langs_count=8" height="165" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=longurara&theme=catppuccin-mocha&hide_border=true&background=1E1E2E&ring=CBA6F7&fire=F5C2E7&currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=longurara&amp;theme=catppuccin-mocha&amp;hide_border=true&amp;background=1E1E2E&amp;ring=CBA6F7&amp;fire=F5C2E7&amp;currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
 </div>
 
 <br />
 
+---
+
 <div align="center">
   <sub><i>"Quiet nights, warm coffee, lo-fi beats, and code that runs where it shouldn't."</i> ☕✨</sub>
-  <br /><br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:45475a,50:313244,100:1e1e2e&height=110&section=footer" width="100%" alt="footer" />
 </div>
