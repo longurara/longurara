@@ -90,17 +90,9 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 ### 🛠️ `~/toolbox`
 
 <div align="center">
-
-  **Languages & Core**
-  <br />
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,py,lua,ts,js,dart,swift,html,css,powershell&amp;theme=dark" alt="Languages" />
-
+  <img src="./assets/toolbox.svg" width="100%" alt="Engineering Toolbox — Catppuccin Mocha Bento Grid" />
   <br /><br />
-
-  **Engines, Frameworks & Tools**
-  <br />
-  <img src="https://skillicons.dev/icons?i=unity,wasm,react,flutter,nodejs,express,vite,cmake,git,github,vscode,visualstudio&amp;theme=dark" alt="Frameworks and Tools" />
-
+  <img src="https://skillicons.dev/icons?i=cpp,c,cs,lua,py,java,ts,js,react,wasm,unity,flutter,swift,nodejs,cmake,git&amp;theme=dark&amp;perline=16" width="88%" alt="Core Tech Stack Dock" />
 </div>
 
 <br />
