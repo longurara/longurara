@@ -89,11 +89,12 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 
 ### 🛠️ `~/toolbox`
 
-<div align="center">
-  <img src="./assets/toolbox.svg" width="100%" alt="Engineering Toolbox — Catppuccin Mocha Bento Grid" />
-  <br /><br />
-  <img src="https://skillicons.dev/icons?i=cpp,c,cs,lua,py,java,ts,js,react,wasm,unity,flutter,swift,nodejs,cmake,git&amp;theme=dark&amp;perline=16" width="88%" alt="Core Tech Stack Dock" />
-</div>
+| Domain | Core Stack | Engines, Internals & Low-Level APIs |
+| :--- | :---: | :--- |
+| **🎮 Wasm & 3D Web** | <img src="https://skillicons.dev/icons?i=wasm,unity,cpp,cs&amp;theme=dark" height="36" alt="Wasm & 3D" /> | ![Emscripten](https://img.shields.io/badge/Emscripten-1e1e2e?style=flat-square&logo=webassembly&logoColor=cba6f7) ![WebGL2](https://img.shields.io/badge/WebGL2-1e1e2e?style=flat-square&logo=webgl&logoColor=f38ba8) ![Babylon.js](https://img.shields.io/badge/Babylon.js-1e1e2e?style=flat-square&logo=babylondotjs&logoColor=fab387) ![ShaderLab](https://img.shields.io/badge/ShaderLab_SM3.5-1e1e2e?style=flat-square&logo=unity&logoColor=cdd6f4) ![OffscreenCanvas](https://img.shields.io/badge/OffscreenCanvas_%26_LZ4-1e1e2e?style=flat-square) |
+| **⚙️ Systems & Langs** | <img src="https://skillicons.dev/icons?i=c,lua,py,java&amp;theme=dark" height="36" alt="Systems & Langs" /> | ![CMake](https://img.shields.io/badge/CMake_%26_Ninja-1e1e2e?style=flat-square&logo=cmake&logoColor=89b4fa) ![AST](https://img.shields.io/badge/Lexer_%2F_AST_Interpreters-1e1e2e?style=flat-square&logo=cplusplus&logoColor=89b4fa) ![Trie](https://img.shields.io/badge/Trie_%26_Fuzzy_Indexing-1e1e2e?style=flat-square) ![JUnit](https://img.shields.io/badge/JUnit_TDD-1e1e2e?style=flat-square&logo=openjdk&logoColor=f9e2af) ![Winget](https://img.shields.io/badge/PowerShell_%26_Winget-1e1e2e?style=flat-square&logo=gnubash&logoColor=a6e3a1) |
+| **🧩 Browser & Offline** | <img src="https://skillicons.dev/icons?i=ts,js,react,vite&amp;theme=dark" height="36" alt="Browser & Web" /> | ![Manifest V3](https://img.shields.io/badge/Manifest_V3-1e1e2e?style=flat-square&logo=googlechrome&logoColor=f5c2e7) ![CDP](https://img.shields.io/badge/Chrome_DevTools_Protocol-1e1e2e?style=flat-square&logo=googlechrome&logoColor=89b4fa) ![Storage](https://img.shields.io/badge/IndexedDB_%26_CacheStorage-1e1e2e?style=flat-square) ![WebRTC](https://img.shields.io/badge/WebRTC_DataChannel-1e1e2e?style=flat-square&logo=webrtc&logoColor=f9e2af) ![Ant Design](https://img.shields.io/badge/Ant_Design-1e1e2e?style=flat-square&logo=antdesign&logoColor=89dceb) |
+| **🎧 Apps, Audio & Tools** | <img src="https://skillicons.dev/icons?i=flutter,dart,swift,nodejs&amp;theme=dark" height="36" alt="Apps & Audio" /> | ![WASAPI](https://img.shields.io/badge/WASAPI_Exclusive_DSP-1e1e2e?style=flat-square) ![Express](https://img.shields.io/badge/Express.js-1e1e2e?style=flat-square&logo=express&logoColor=a6e3a1) ![MediaPipe](https://img.shields.io/badge/MediaPipe_Vision-1e1e2e?style=flat-square&logo=google&logoColor=89b4fa) ![Git](https://img.shields.io/badge/Git-1e1e2e?style=flat-square&logo=git&logoColor=fab387) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_CI-1e1e2e?style=flat-square&logo=githubactions&logoColor=cba6f7) |
 
 <br />
 
