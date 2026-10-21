@@ -11,7 +11,7 @@
 
   <!-- Minimal Cozy Badges -->
   <a href="https://github.com/longurara?tab=repositories">
-    <img src="https://img.shields.io/badge/repos-34%2B%20public-cba6f7?style=flat-square&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Public Repositories" />
+    <img src="https://img.shields.io/badge/repos-35%2B%20public-cba6f7?style=flat-square&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Public Repositories" />
   </a>
   <a href="https://github.com/longurara">
     <img src="https://img.shields.io/github/stars/longurara?affiliations=OWNER&amp;label=stars&amp;style=flat-square&amp;color=f9e2af&amp;labelColor=1e1e2e&amp;logo=github&amp;logoColor=cdd6f4" alt="Total Stars" />
@@ -31,7 +31,7 @@
 
 Hey, I'm **Long** (`@longurara`) — a Software Engineering student at **FPT University** who loves taking apart software to see how it ticks, then rebuilding it into something fast, local-first, and pleasant to use.
 
-Most of my evenings go into porting desktop/Unity games to **WebAssembly**, writing **C++ interpreters & search tools**, crafting **zero-backend Chrome extensions**, and building cozy media utilities for music and light novels.
+Most of my evenings go into porting desktop/Unity/C++ games to **WebAssembly**, writing **C++ interpreters & search tools**, crafting **zero-backend Chrome extensions**, and building cozy media utilities for music and light novels.
 
 ```yaml
 name: Lê Hoàng Long (@longurara)
@@ -39,38 +39,13 @@ education: Software Engineering @ FPT University
 vibe: lo-fi playlists, late-night debugging, light novels & rhythm/cozy games
 
 what_i_build:
-  webassembly_&_3d:   [Unity WebGL2 ports, ShaderLab SM3.5, Babylon.js 3D web games]
-  systems_&_langs:    [C++17/20, C#, Java, Python, custom AST interpreters, Trie/fuzzy indexing]
-  browser_&_offline:  [Manifest V3 extensions, Chrome DevTools Protocol, IndexedDB/CacheStorage]
-  desktop_&_mobile:   [Flutter (WASAPI Exclusive audio), SwiftUI (iOS), Windows winget tooling]
+  webassembly_and_3d: [C++/Emscripten & Unity WebGL2 ports, ShaderLab SM3.5, Babylon.js 3D web games]
+  systems_and_langs:  [C++17/20, Lua 5.1, C#, Java, Python, custom AST interpreters, Trie/fuzzy indexing]
+  browser_and_local:  [Manifest V3 extensions, Chrome DevTools Protocol, IndexedDB, CacheStorage, WebRTC]
+  desktop_and_mobile: [Flutter (WASAPI Exclusive audio), SwiftUI (iOS), Windows winget tooling]
 
 philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to actually be used."
 ```
-
-<br />
-
-### ✨ `~/pinned-highlights`
-
-<div align="center">
-  <a href="https://github.com/longurara/ChillWithYou_Wasm">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=ChillWithYou_Wasm&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="ChillWithYou_Wasm" />
-  </a>
-  <a href="https://github.com/longurara/tudienoffline">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=tudienoffline&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="tudienoffline" />
-  </a>
-  <a href="https://github.com/longurara/Gun_game">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=Gun_game&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="Gun_game" />
-  </a>
-  <a href="https://github.com/longurara/Omni-Lang">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=Omni-Lang&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="Omni-Lang" />
-  </a>
-  <a href="https://github.com/longurara/FAP-GPA-Viewer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=FAP-GPA-Viewer&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="FAP-GPA-Viewer" />
-  </a>
-  <a href="https://github.com/longurara/recall_extension">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=longurara&repo=recall_extension&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa" width="49%" alt="recall_extension" />
-  </a>
-</div>
 
 <br />
 
@@ -79,6 +54,7 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 #### 🎮 WebAssembly, 3D Web & Cozy Games
 | Project | What it is | Stack & Links |
 | :--- | :--- | :--- |
+| **[DontStarveWasm](https://github.com/longurara/DontStarveWasm)** | Browser-native **WebAssembly** engine & verification port of *Don't Starve Together*. Compiles **C++17 + Lua 5.1.5** (`Emscripten`) across 3 isolated WASM Workers (`Client`, `Master`, `Caves`), packs 4,030 Lua scripts into 16 SHA-256 verified bundles, decodes `KTEX`/`BILD6`/`ANIM4` via WebGL2 `OffscreenCanvas`, commits atomic 2-shard checkpoints to `IndexedDB`, and links peers over `RTCDataChannel` (**WebRTC**). | `C++17` `Lua 5.1` `Wasm` `Emscripten` `WebGL2` `WebRTC` |
 | **[ChillWithYou_Wasm](https://github.com/longurara/ChillWithYou_Wasm)** | Standalone **Unity WebGL2 / WebAssembly** port of *Chill with You: Lo-Fi Story*. Features a custom `lilToon` SM4.5 → SM3.5 shader pipeline, unbatched static room meshes, 233 LZ4 AssetPacks with a 3-tier `CacheStorage` preloader (`0ms` RAM-pinned outfit/decor swaps), 152 Lo-Fi tracks, 30-channel ambient mixer, Pomodoro/Diary suite, and C# native uGUI bindings. | `C#` `Unity WebGL` `Wasm` `Python` `ShaderLab` |
 | **[LASTLIGHT (`Gun_game`)](https://github.com/longurara/Gun_game)** | Browser-native 3D third-person **Battle Royale survival shooter**. Drop onto a `4×4 km` island with **100 AI bots** (or a `200m` blitz arena), loot weapons/armor, drive vehicles, and survive the shrinking zone. Supports desktop KB/M + mobile touch & HTTPS gyroscope aiming with zero game server. | `TypeScript` `Babylon.js` `Vite` · [**Live Demo ↗**](https://gun-game-fawn.vercel.app) |
 
@@ -117,13 +93,13 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 
   **Languages & Core**
   <br />
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,py,ts,js,dart,swift,html,css,powershell&theme=dark" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,py,lua,ts,js,dart,swift,html,css,powershell&amp;theme=dark" alt="Languages" />
 
   <br /><br />
 
   **Engines, Frameworks & Tools**
   <br />
-  <img src="https://skillicons.dev/icons?i=unity,wasm,react,flutter,nodejs,express,vite,cmake,git,github,vscode,visualstudio&theme=dark" alt="Frameworks and Tools" />
+  <img src="https://skillicons.dev/icons?i=unity,wasm,react,flutter,nodejs,express,vite,cmake,git,github,vscode,visualstudio&amp;theme=dark" alt="Frameworks and Tools" />
 
 </div>
 
@@ -132,12 +108,8 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 ### 📊 `~/stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=longurara&amp;show_icons=true&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;icon_color=f5c2e7" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;langs_count=8" height="165" alt="Top Languages" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=longurara&amp;theme=catppuccin-mocha&amp;hide_border=true&amp;background=1E1E2E&amp;ring=CBA6F7&amp;fire=F5C2E7&amp;currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;langs_count=8" height="165" alt="Top Languages" />
 </div>
 
 <br />
