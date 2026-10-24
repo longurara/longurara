@@ -1,10 +1,19 @@
+<!-- Header Banner -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:8839ef,100:ea76cb&amp;height=120&amp;section=header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:cba6f7,100:f5c2e7&amp;height=120&amp;section=header" width="100%" alt="" />
+</picture>
+
 <div align="center">
 
   <h1>Hi there, I'm Lê Hoàng Long (<code>@longurara</code>) 🌙</h1>
 
   <!-- Typing Subtitle -->
   <a href="https://github.com/longurara">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1200&amp;color=CBA6F7&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" alt="Typing SVG" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1200&amp;color=8839EF&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1200&amp;color=CBA6F7&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Building+cozy+experiences+%26+low-level+tools+after+midnight+%E2%98%95;Unity+WebGL+%2F+WebAssembly+ports+%26+3D+browser+games+%F0%9F%8E%AE;Compilers%2C+C%2B%2B+search+engines+%26+Manifest+V3+extensions+%F0%9F%9B%A0%EF%B8%8F;Local-first+apps%2C+audiophile+players+%26+light+novel+readers+%F0%9F%8E%A7" alt="Typing SVG" />
+    </picture>
   </a>
 
   <br />
@@ -51,64 +60,99 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
 
 ### 🗂️ `~/project-index`
 
-#### 🎮 WebAssembly, 3D Web & Cozy Games
-| Project | What it is | Stack & Links |
-| :--- | :--- | :--- |
-| **[DontStarveWasm](https://github.com/longurara/DontStarveWasm)** | Browser-native **WebAssembly** engine & verification port of *Don't Starve Together*. Compiles **C++17 + Lua 5.1.5** (`Emscripten`) across 3 isolated WASM Workers (`Client`, `Master`, `Caves`), packs 4,030 Lua scripts into 16 SHA-256 verified bundles, decodes `KTEX`/`BILD6`/`ANIM4` via WebGL2 `OffscreenCanvas`, commits atomic 2-shard checkpoints to `IndexedDB`, and links peers over `RTCDataChannel` (**WebRTC**). | `C++17` `Lua 5.1` `Wasm` `Emscripten` `WebGL2` `WebRTC` |
-| **[ChillWithYou_Wasm](https://github.com/longurara/ChillWithYou_Wasm)** | Standalone **Unity WebGL2 / WebAssembly** port of *Chill with You: Lo-Fi Story*. Features a custom `lilToon` SM4.5 → SM3.5 shader pipeline, unbatched static room meshes, 233 LZ4 AssetPacks with a 3-tier `CacheStorage` preloader (`0ms` RAM-pinned outfit/decor swaps), 152 Lo-Fi tracks, 30-channel ambient mixer, Pomodoro/Diary suite, and C# native uGUI bindings. | `C#` `Unity WebGL` `Wasm` `Python` `ShaderLab` |
-| **[LASTLIGHT (`Gun_game`)](https://github.com/longurara/Gun_game)** | Browser-native 3D third-person **Battle Royale survival shooter**. Drop onto a `4×4 km` island with **100 AI bots** (or a `200m` blitz arena), loot weapons/armor, drive vehicles, and survive the shrinking zone. Supports desktop KB/M + mobile touch & HTTPS gyroscope aiming with zero game server. | `TypeScript` `Babylon.js` `Vite` · [**Live Demo ↗**](https://gun-game-fawn.vercel.app) |
+<details open>
+<summary><b>🎮 WebAssembly, 3D Web & Cozy Games</b></summary>
+<br />
 
-#### ⚙️ Compilers, Languages & Systems Tooling
-| Project | What it is | Stack & Links |
+| Project | What it is | Stack |
 | :--- | :--- | :--- |
-| **[Omni-Lang](https://github.com/longurara/Omni-Lang)** | Custom object-oriented programming language & interpreter written in **C++** (`Lexer` → `Parser` → `Runtime`). Ships with a rich standard library (`Math`, `JSON`, `Regex`, `CSV`, `File I/O`), a dedicated **VS Code IntelliSense extension** (`vscode-omni`), and multilingual docs (`EN` / `VI` / `RU`). | `C++` `CMake` `VS Code API` |
-| **[Searching-Software](https://github.com/longurara/Searching-Software)** | **C++ Intelli-Search** — interactive CLI source-code search engine built with **Trie prefix indexing**, typo-tolerant fuzzy matching, frequency ranking, and real-time autocomplete. | `C++` `Trie` `Algorithms` |
-| **[AutoGradeJava](https://github.com/longurara/AutoGradeJava)** | Desktop GUI & CLI automated grading runner in Python for compiling, executing, and scoring Java OOP student submissions. | `Python` `Java` `Tkinter` |
-| **[WinUtilities-Pro](https://github.com/longurara/WinUtilities-Pro)** | Categorized batch application installer for Windows powered by `winget` and custom automation scripts with live log streaming. | `Windows` `Winget` `Automation` |
+| **[DontStarveWasm](https://github.com/longurara/DontStarveWasm)** | Browser-native **WebAssembly** port of *Don't Starve Together* — C++17 + Lua 5.1 across 3 WASM Workers, WebGL2 `OffscreenCanvas` asset decoding, `IndexedDB` checkpoints & **WebRTC** multiplayer. | `C++17` `Lua` `Wasm` `WebGL2` `WebRTC` |
+| **[ChillWithYou_Wasm](https://github.com/longurara/ChillWithYou_Wasm)** | **Unity WebGL2** port of *Chill with You: Lo-Fi Story* — custom SM4.5 → SM3.5 shader pipeline, 3-tier `CacheStorage` preloader, 152 lo-fi tracks & ambient mixer. | `C#` `Unity` `Wasm` `ShaderLab` |
+| **[LASTLIGHT](https://github.com/longurara/Gun_game)**<br /><sub>[Live demo ↗](https://gun-game-fawn.vercel.app)</sub> | 3D third-person **Battle Royale** in the browser — `4×4 km` island, **100 AI bots**, vehicles, shrinking zone, mobile touch & gyro aiming, zero game server. | `TypeScript` `Babylon.js` `Vite` |
 
-#### 🧩 Chrome Extensions & Local-First Web Apps
-| Project | What it is | Stack & Links |
-| :--- | :--- | :--- |
-| **[tudienoffline](https://github.com/longurara/tudienoffline)** | **★ 48 Stars** · Zero-backend, 100% client-side **English ↔ Vietnamese Offline Dictionary**. Runs directly in the browser with a multi-tier dataset architecture (`2.2 MB+` 8-shard chunked manifest) and instant local search. | `JavaScript` `Offline-First` `HTML/CSS` |
-| **[FAP-GPA-Viewer](https://github.com/longurara/FAP-GPA-Viewer)** | **FAP Dashboard v6.2** — Chrome Web Store extension for FPT University students: GPA calculation & simulation, smart timetable scheduling, exam countdowns, and study analytics. | `Manifest V3` `JavaScript` · [**Web ↗**](https://fap-gpa-viewer.vercel.app) · [**Chrome Store ↗**](https://chromewebstore.google.com/detail/fpt-academic-portal-dashb/pkfcnophcekokdfobdkbliaainejbdhn) |
-| **[FAP-Auto-Move-Class](https://github.com/longurara/FAP-Auto-Move-Class)** | Zero-dependency Chrome Web Store extension that maps open university classes onto a visual week grid, highlights timetable clashes, and grabs open seats automatically using existing browser sessions. | `Manifest V3` `Zero-Backend` · [**Chrome Store ↗**](https://chromewebstore.google.com/detail/fap-auto-move-class/ghigbogpfhpgcogmbjehjpfigpgcalof) |
-| **[recall_extension](https://github.com/longurara/recall_extension)** | **Recall** — Offline web page time-machine & archiver. Captures self-contained DOM snapshots via **Chrome DevTools Protocol (`chrome.debugger`)** & `MutationObserver`, compresses with `gzip` into `IndexedDB`, and features visual DOM diffing & full-text search. | `JavaScript` `CDP` `IndexedDB` `Gzip` |
-| **[Search-docx-pdf-pptx](https://github.com/longurara/Search-docx-pdf-pptx)** | Client-side multi-format document search utility for indexing and querying inside `.docx`, `.pdf`, and `.pptx` files locally in the browser. | `HTML5` `JavaScript` · [**Live ↗**](https://search-docx-pdf-pptx.vercel.app) |
-| **[CapturetoChatGPT](https://github.com/longurara/CapturetoChatGPT)** · **[Presentation_Random](https://github.com/longurara/Presentation_Random)** · **[FuOverflowAutoDownload](https://github.com/longurara/FuOverflowAutoDownload)** | Workflow micro-extensions: one-click slide cropper to ChatGPT clipboard, Google Slides random jumper (`Shift+Alt+R`), and batch attachment downloader. | `Chrome Extensions` `Manifest V3` |
+</details>
 
-#### 🎧 Cozy Media, Audio Players & Light Novel Readers
-| Project | What it is | Stack & Links |
+<details>
+<summary><b>⚙️ Compilers, Languages & Systems Tooling</b></summary>
+<br />
+
+| Project | What it is | Stack |
 | :--- | :--- | :--- |
-| **[Flutter_music_app](https://github.com/longurara/Flutter_music_app)** | Desktop-first cross-platform audiophile player with **Vinyl turntable & CD deck themes**, `media_kit` Hi-Res/lossless playback, Windows **WASAPI Exclusive** bit-perfect output, 5-band EQ, mic room calibration, synced lyrics (`lrclib`), and Google Drive streaming. | `Flutter` `Dart` `C++` `WASAPI` |
-| **[Swift-music-app](https://github.com/longurara/Swift-music-app)** | **MusicGlass** — Native iOS SwiftUI music player concept with animated liquid-glass (glassmorphism) gradient blobs and `AVPlayer` streaming. | `Swift` `SwiftUI` `AVPlayer` |
-| **[otonariNoTenshi](https://github.com/longurara/otonariNoTenshi)** | Mobile-first Light Novel reader workbench & EPUB/PDF/DOCX pipeline featuring character catalogs, reading stats, vocabulary flashcards, TTS audio, and **MediaPipe** hand-gesture camera navigation. | `Node.js` `JavaScript` `MediaPipe` · [**Live ↗**](https://otonari-no-tenshi.vercel.app) |
-| **[hako_downloader](https://github.com/longurara/hako_downloader)** | Local Web UI + CLI crawler and downloader for the Hako / DocLN light novel ecosystem with volume selection, built-in DNS switcher, and clean `EPUB` / `TXT` generation. | `Node.js` `Express` `EPUB` |
-| **[demo_Sports-Center-Management-System](https://github.com/longurara/demo_Sports-Center-Management-System)** | Multi-role management frontend prototype (Manager, Receptionist, Coach, Member) built for `SWP391`. | `React` `TypeScript` `Ant Design` · [**Live ↗**](https://frontend-eta-ruddy-61.vercel.app) |
+| **[Omni-Lang](https://github.com/longurara/Omni-Lang)** | Object-oriented language & interpreter in **C++** (`Lexer` → `Parser` → `Runtime`) with a rich stdlib and a **VS Code IntelliSense extension**. | `C++` `CMake` `VS Code API` |
+| **[Searching-Software](https://github.com/longurara/Searching-Software)** | CLI source-code search engine with **Trie prefix indexing**, typo-tolerant fuzzy matching & live autocomplete. | `C++` `Trie` |
+| **[AutoGradeJava](https://github.com/longurara/AutoGradeJava)** | GUI & CLI runner that compiles, executes and scores Java OOP student submissions. | `Python` `Java` `Tkinter` |
+| **[WinUtilities-Pro](https://github.com/longurara/WinUtilities-Pro)** | Categorized batch app installer for Windows powered by `winget`, with live log streaming. | `Windows` `Winget` |
+
+</details>
+
+<details>
+<summary><b>🧩 Chrome Extensions & Local-First Web Apps</b></summary>
+<br />
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[tudienoffline](https://github.com/longurara/tudienoffline)**<br /><sub>★ 48 stars</sub> | Zero-backend **English ↔ Vietnamese offline dictionary** with an 8-shard chunked dataset and instant local search. | `JavaScript` `Offline-First` |
+| **[FAP-GPA-Viewer](https://github.com/longurara/FAP-GPA-Viewer)**<br /><sub>[Web ↗](https://fap-gpa-viewer.vercel.app) · [Chrome Store ↗](https://chromewebstore.google.com/detail/fpt-academic-portal-dashb/pkfcnophcekokdfobdkbliaainejbdhn)</sub> | **FAP Dashboard** for FPT University students — GPA simulation, smart timetable, exam countdowns & study analytics. | `Manifest V3` `JavaScript` |
+| **[FAP-Auto-Move-Class](https://github.com/longurara/FAP-Auto-Move-Class)**<br /><sub>[Chrome Store ↗](https://chromewebstore.google.com/detail/fap-auto-move-class/ghigbogpfhpgcogmbjehjpfigpgcalof)</sub> | Maps open classes onto a visual week grid, flags timetable clashes and grabs open seats automatically. | `Manifest V3` `Zero-Backend` |
+| **[recall_extension](https://github.com/longurara/recall_extension)** | **Recall** — offline web-page time machine: CDP DOM snapshots, `gzip` into `IndexedDB`, visual DOM diff & full-text search. | `JavaScript` `CDP` `IndexedDB` |
+| **[Search-docx-pdf-pptx](https://github.com/longurara/Search-docx-pdf-pptx)**<br /><sub>[Live ↗](https://search-docx-pdf-pptx.vercel.app)</sub> | Client-side search inside `.docx`, `.pdf` and `.pptx` files, fully in the browser. | `HTML5` `JavaScript` |
+| **[CapturetoChatGPT](https://github.com/longurara/CapturetoChatGPT)** · **[Presentation_Random](https://github.com/longurara/Presentation_Random)** · **[FuOverflowAutoDownload](https://github.com/longurara/FuOverflowAutoDownload)** | Workflow micro-extensions: slide cropper → ChatGPT, Google Slides random jumper, batch attachment downloader. | `Manifest V3` |
+
+</details>
+
+<details>
+<summary><b>🎧 Cozy Media, Audio Players & Light Novel Readers</b></summary>
+<br />
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Flutter_music_app](https://github.com/longurara/Flutter_music_app)** | Audiophile player with **vinyl & CD deck themes**, Hi-Res playback, **WASAPI Exclusive** bit-perfect output, 5-band EQ & synced lyrics. | `Flutter` `Dart` `C++` |
+| **[Swift-music-app](https://github.com/longurara/Swift-music-app)** | **MusicGlass** — iOS SwiftUI player concept with animated liquid-glass gradient blobs. | `Swift` `SwiftUI` |
+| **[otonariNoTenshi](https://github.com/longurara/otonariNoTenshi)**<br /><sub>[Live ↗](https://otonari-no-tenshi.vercel.app)</sub> | Light novel reader & EPUB/PDF/DOCX pipeline with flashcards, TTS and **MediaPipe** hand-gesture navigation. | `Node.js` `MediaPipe` |
+| **[hako_downloader](https://github.com/longurara/hako_downloader)** | Web UI + CLI downloader for Hako / DocLN light novels with clean `EPUB` / `TXT` output. | `Node.js` `Express` |
+| **[Sports Center MS](https://github.com/longurara/demo_Sports-Center-Management-System)**<br /><sub>[Live ↗](https://frontend-eta-ruddy-61.vercel.app)</sub> | Multi-role management frontend prototype (Manager, Receptionist, Coach, Member) for `SWP391`. | `React` `TypeScript` `Ant Design` |
+
+</details>
 
 <br />
 
 ### 🛠️ `~/toolbox`
 
-| Domain | Stack & Tooling | Low-Level APIs & Internals |
-| :--- | :--- | :--- |
-| **🎮 Wasm & 3D Web** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" width="34" height="34" alt="WebAssembly" title="WebAssembly" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/unity/cdd6f4" width="34" height="34" alt="Unity" title="Unity" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babylonjs/babylonjs-original.svg" width="34" height="34" alt="Babylon.js" title="Babylon.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/webgl/f38ba8" width="34" height="34" alt="WebGL2" title="WebGL2" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="34" height="34" alt="C++" title="C++" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="34" height="34" alt="C#" title="C#" /> | `Emscripten` · `ShaderLab SM3.5` · `OffscreenCanvas` · `LZ4 AssetPacks` · `KTEX / ANIM4` |
-| **⚙️ Systems & Langs** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="34" height="34" alt="C" title="C" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" width="34" height="34" alt="Lua" title="Lua 5.1" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="34" height="34" alt="Java" title="Java" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" width="34" height="34" alt="CMake" title="CMake" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="34" height="34" alt="JUnit" title="JUnit" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="34" height="34" alt="PowerShell" title="PowerShell" /> | `Custom AST Interpreters` · `Trie & Fuzzy Indexing` · `Ninja` · `TDD / DDT` · `Winget CLI` |
-| **🧩 Browser & Web** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="34" height="34" alt="React" title="React 18" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="34" height="34" alt="Vite" title="Vite" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" width="34" height="34" alt="Chrome" title="Chrome Extensions" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/webrtc/f9e2af" width="34" height="34" alt="WebRTC" title="WebRTC" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg" width="34" height="34" alt="Ant Design" title="Ant Design" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="34" height="34" alt="HTML5" title="HTML5" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="34" height="34" alt="CSS3" title="CSS3" /> | `Manifest V3` · `Chrome DevTools Protocol` · `IndexedDB` · `CacheStorage` · `Gzip DOM Diff` |
-| **🎧 Apps, Audio & Dev** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="34" height="34" alt="Flutter" title="Flutter" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="34" height="34" alt="Dart" title="Dart" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" width="34" height="34" alt="Swift" title="Swift / SwiftUI" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/express/cdd6f4" width="34" height="34" alt="Express" title="Express.js" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="34" height="34" alt="GitHub Actions" title="GitHub Actions" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="34" height="34" alt="VS Code" title="VS Code" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="34" height="34" alt="Visual Studio" title="Visual Studio" /> | `WASAPI Exclusive` · `5-Band EQ DSP` · `MediaPipe Vision` · `AVPlayer / media_kit` · `EPUB / TTS` |
+| Domain | Stack, Tooling & Internals |
+| :--- | :--- |
+| **🎮 Wasm & 3D Web** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" width="32" height="32" alt="WebAssembly" title="WebAssembly" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/unity/9399b2" width="32" height="32" alt="Unity" title="Unity" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babylonjs/babylonjs-original.svg" width="32" height="32" alt="Babylon.js" title="Babylon.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/webgl/f38ba8" width="32" height="32" alt="WebGL2" title="WebGL2" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="32" height="32" alt="C++" title="C++" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="32" height="32" alt="C#" title="C#" /><br /><sub>`Emscripten` · `ShaderLab SM3.5` · `OffscreenCanvas` · `LZ4 AssetPacks` · `KTEX / ANIM4`</sub> |
+| **⚙️ Systems & Langs** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="32" height="32" alt="C" title="C" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" width="32" height="32" alt="Lua" title="Lua 5.1" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="32" height="32" alt="Python" title="Python" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="32" height="32" alt="Java" title="Java" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" width="32" height="32" alt="CMake" title="CMake" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="32" height="32" alt="JUnit" title="JUnit" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="32" height="32" alt="PowerShell" title="PowerShell" /><br /><sub>`Custom AST Interpreters` · `Trie & Fuzzy Indexing` · `Ninja` · `TDD / DDT` · `Winget CLI`</sub> |
+| **🧩 Browser & Web** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="32" height="32" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="32" height="32" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="32" height="32" alt="React" title="React 18" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="32" height="32" alt="Vite" title="Vite" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" width="32" height="32" alt="Chrome" title="Chrome Extensions" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/webrtc/f9e2af" width="32" height="32" alt="WebRTC" title="WebRTC" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg" width="32" height="32" alt="Ant Design" title="Ant Design" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="32" height="32" alt="HTML5" title="HTML5" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="32" height="32" alt="CSS3" title="CSS3" /><br /><sub>`Manifest V3` · `Chrome DevTools Protocol` · `IndexedDB` · `CacheStorage` · `Gzip DOM Diff`</sub> |
+| **🎧 Apps, Audio & Dev** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="32" height="32" alt="Flutter" title="Flutter" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="32" height="32" alt="Dart" title="Dart" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" width="32" height="32" alt="Swift" title="Swift / SwiftUI" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="32" height="32" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="32" height="32" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="32" height="32" alt="VS Code" title="VS Code" />&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="32" height="32" alt="Visual Studio" title="Visual Studio" /><br /><sub>`WASAPI Exclusive` · `5-Band EQ DSP` · `MediaPipe Vision` · `Express` · `GitHub Actions` · `EPUB / TTS`</sub> |
 
 <br />
 
 ### 📊 `~/stats`
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=longurara&amp;theme=catppuccin-mocha&amp;hide_border=true&amp;background=1E1E2E&amp;ring=CBA6F7&amp;fire=F5C2E7&amp;currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;langs_count=8" height="165" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=longurara&amp;show_icons=true&amp;hide_border=true&amp;bg_color=eff1f5&amp;title_color=8839ef&amp;text_color=4c4f69&amp;icon_color=ea76cb&amp;ring_color=8839ef" />
+    <img src="https://github-readme-stats.vercel.app/api?username=longurara&amp;show_icons=true&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;icon_color=f5c2e7&amp;ring_color=cba6f7" height="165" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;hide_border=true&amp;bg_color=eff1f5&amp;title_color=8839ef&amp;text_color=4c4f69&amp;langs_count=8" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longurara&amp;layout=compact&amp;theme=catppuccin_mocha&amp;hide_border=true&amp;bg_color=1e1e2e&amp;title_color=cba6f7&amp;text_color=cdd6f4&amp;langs_count=8" height="165" alt="Top Languages" />
+  </picture>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=longurara&amp;hide_border=true&amp;background=EFF1F5&amp;ring=8839EF&amp;fire=EA76CB&amp;currStreakNum=4C4F69&amp;sideNums=4C4F69&amp;currStreakLabel=8839EF&amp;sideLabels=4C4F69&amp;dates=6C6F85&amp;stroke=CCD0DA" />
+    <img src="https://streak-stats.demolab.com?user=longurara&amp;theme=catppuccin-mocha&amp;hide_border=true&amp;background=1E1E2E&amp;ring=CBA6F7&amp;fire=F5C2E7&amp;currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
+  </picture>
 </div>
 
 <br />
 
----
-
 <div align="center">
   <sub><i>"Quiet nights, warm coffee, lo-fi beats, and code that runs where it shouldn't."</i> ☕✨</sub>
 </div>
+
+<!-- Footer Banner -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:ea76cb,100:8839ef&amp;height=90&amp;section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:f5c2e7,100:cba6f7&amp;height=90&amp;section=footer" width="100%" alt="" />
+</picture>
