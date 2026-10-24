@@ -1,0 +1,34 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs (Catppuccin Mocha / Latte)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#cba6f7&color_dots=#181825,#45475a,#7f5dad,#b48ce0,#f5c2e7&color_dot_border=#11111b
+            dist/snake-light.svg?color_snake=#8839ef&color_dots=#e6e9ef,#d7c4f5,#b68af1,#9f63ee,#ea76cb&color_dot_border=#dce0e8
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

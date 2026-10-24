@@ -1,12 +1,10 @@
-<!-- Header Banner -->
+<!-- Header Banner (hand-drawn SVG, see assets/) -->
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:8839ef,100:ea76cb&amp;height=120&amp;section=header" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:cba6f7,100:f5c2e7&amp;height=120&amp;section=header" width="100%" alt="" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header.svg" width="100%" alt="Lê Hoàng Long (@longurara)" />
 </picture>
 
 <div align="center">
-
-  <h1>Hi there, I'm Lê Hoàng Long (<code>@longurara</code>) 🌙</h1>
 
   <!-- Typing Subtitle -->
   <a href="https://github.com/longurara">
@@ -55,6 +53,32 @@ what_i_build:
 
 philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to actually be used."
 ```
+
+<br />
+
+### ✨ `~/featured`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/longurara/ChillWithYou_Wasm">
+        <img src="https://raw.githubusercontent.com/longurara/ChillWithYou_Wasm/HEAD/docs/screenshots/00-hero-main.png" width="100%" alt="ChillWithYou_Wasm screenshot" />
+      </a>
+      <h4><a href="https://github.com/longurara/ChillWithYou_Wasm">ChillWithYou_Wasm</a></h4>
+      <sub>Unity WebGL2 / WebAssembly port of <i>Chill with You: Lo-Fi Story</i> — custom SM3.5 shader pipeline, 3-tier CacheStorage preloader, 152 lo-fi tracks & a 30-channel ambient mixer.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/longurara/DontStarveWasm">
+        <picture>
+          <source media="(prefers-color-scheme: light)" srcset="assets/dontstarvewasm-light.svg" />
+          <img src="assets/dontstarvewasm.svg" width="100%" alt="DontStarveWasm architecture" />
+        </picture>
+      </a>
+      <h4><a href="https://github.com/longurara/DontStarveWasm">DontStarveWasm</a></h4>
+      <sub>Browser-native WebAssembly port of <i>Don't Starve Together</i> — C++17 + Lua 5.1 across 3 WASM Workers, WebGL2 asset decoding, IndexedDB saves & WebRTC multiplayer.</sub>
+    </td>
+  </tr>
+</table>
 
 <br />
 
@@ -142,6 +166,11 @@ philosophy: "No unnecessary servers. Fast startup, offline-friendly, built to ac
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=longurara&amp;hide_border=true&amp;background=EFF1F5&amp;ring=8839EF&amp;fire=EA76CB&amp;currStreakNum=4C4F69&amp;sideNums=4C4F69&amp;currStreakLabel=8839EF&amp;sideLabels=4C4F69&amp;dates=6C6F85&amp;stroke=CCD0DA" />
     <img src="https://streak-stats.demolab.com?user=longurara&amp;theme=catppuccin-mocha&amp;hide_border=true&amp;background=1E1E2E&amp;ring=CBA6F7&amp;fire=F5C2E7&amp;currStreakLabel=CBA6F7" height="165" alt="GitHub Streak" />
+  </picture>
+  <br /><br />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/longurara/longurara/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/longurara/longurara/output/snake-dark.svg" width="100%" alt="Contribution snake" />
   </picture>
 </div>
 

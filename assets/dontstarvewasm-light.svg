@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="508" height="270" viewBox="0 0 508 270" role="img" aria-label="DontStarveWasm architecture">
+  <style>
+    .t { font: 700 15px Consolas, 'SF Mono', Menlo, monospace; fill: #4c4f69; }
+    .b { font: 700 13px Consolas, 'SF Mono', Menlo, monospace; }
+    .s { font: 400 11px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #8c8fa1; }
+    .c { font: 600 11px Consolas, 'SF Mono', Menlo, monospace; fill: #4c4f69; }
+    .flow { stroke-dasharray: 4 5; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -18; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="507" height="269" rx="14" fill="#e6e9ef" stroke="#ccd0da"/>
+  <g transform="translate(14 0)">
+  <circle cx="24" cy="24" r="5" fill="#f38ba8"/><circle cx="40" cy="24" r="5" fill="#f9e2af"/><circle cx="56" cy="24" r="5" fill="#a6e3a1"/>
+  <text x="76" y="29" class="t">dont-starve.wasm</text>
+  <rect x="150" y="48" width="180" height="50" rx="10" fill="#ccd0da" stroke="#8839ef" stroke-width="1.5"/><text x="240.0" y="72" class="b" text-anchor="middle" fill="#8839ef">Browser main thread</text><text x="240.0" y="90" class="s" text-anchor="middle">WebGL2 · OffscreenCanvas</text>
+  <g fill="none" stroke="#8c8fa1" stroke-width="1.5">
+    <path class="flow" d="M240 98 V114 H80 V128"/>
+    <path class="flow" d="M240 98 V128"/>
+    <path class="flow" d="M240 98 V114 H400 V128"/>
+  </g>
+  <rect x="24" y="128" width="120" height="50" rx="10" fill="#ccd0da" stroke="#1e66f5" stroke-width="1.5"/><text x="84.0" y="152" class="b" text-anchor="middle" fill="#1e66f5">Client</text><text x="84.0" y="170" class="s" text-anchor="middle">WASM Worker</text>
+  <rect x="180" y="128" width="120" height="50" rx="10" fill="#ccd0da" stroke="#40a02b" stroke-width="1.5"/><text x="240.0" y="152" class="b" text-anchor="middle" fill="#40a02b">Master</text><text x="240.0" y="170" class="s" text-anchor="middle">WASM Worker</text>
+  <rect x="336" y="128" width="120" height="50" rx="10" fill="#ccd0da" stroke="#fe640b" stroke-width="1.5"/><text x="396.0" y="152" class="b" text-anchor="middle" fill="#fe640b">Caves</text><text x="396.0" y="170" class="s" text-anchor="middle">WASM Worker</text>
+  <text x="240" y="200" class="s" text-anchor="middle">4,030 Lua scripts → 16 SHA-256 verified bundles</text>
+  <text x="240" y="216" class="s" text-anchor="middle">atomic IndexedDB checkpoints · P2P over RTCDataChannel</text>
+  <rect x="24" y="232" width="68" height="24" rx="12" fill="#ccd0da"/><circle cx="36" cy="244" r="4" fill="#1e66f5"/><text x="45" y="248.5" class="c">C++17</text><rect x="100.0" y="232" width="82" height="24" rx="12" fill="#ccd0da"/><circle cx="112.0" cy="244" r="4" fill="#8839ef"/><text x="121.0" y="248.5" class="c">Lua 5.1</text><rect x="190.4" y="232" width="75" height="24" rx="12" fill="#ccd0da"/><circle cx="202.4" cy="244" r="4" fill="#fe640b"/><text x="211.4" y="248.5" class="c">WebGL2</text><rect x="273.6" y="232" width="97" height="24" rx="12" fill="#ccd0da"/><circle cx="285.6" cy="244" r="4" fill="#40a02b"/><text x="294.6" y="248.5" class="c">IndexedDB</text><rect x="378.40000000000003" y="232" width="75" height="24" rx="12" fill="#ccd0da"/><circle cx="390.40000000000003" cy="244" r="4" fill="#ea76cb"/><text x="399.40000000000003" y="248.5" class="c">WebRTC</text>
+  </g>
+</svg>
